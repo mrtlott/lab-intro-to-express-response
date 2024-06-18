@@ -120,7 +120,7 @@ The Terminator has another famous catchphrase:
 Try to add it to your previous ROUTES
 
 ```js
-app.get('terminator', (req, res) => {
+app.get('/terminator', (req, res) => {
   res.send('I\ll be back')
   res.send('Hasta la vista, baby')
 })
