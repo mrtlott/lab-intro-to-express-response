@@ -67,7 +67,7 @@ For example:
 - Tim Gunn - Make it work
 
 ```js
- app.get('tim-gunn', (req, res) => {
+ app.get('/tim-gunn', (req, res) => {
    res.send('Make it work')
  })
 ```
